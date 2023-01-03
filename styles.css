@@ -46,7 +46,12 @@
     font-size: 24px;
 }
 
-.navbar__menu{
+.navbar__links:hover {
+  color: #3882F6 ;
+  transition: all 0.3s ease; 
+}
+
+ .navbar__menu{
     display: flex;
     align-items: center;
     list-style: none;
@@ -143,24 +148,18 @@ button:hover{
     margin-top: 35px ;
  }
 
- .box{
-    display: flex;
-    margin: 25px;
-    flex-direction: row;
-    flex-wrap: wrap;
- }
- @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
+ .box,figure{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   }
 
 
  .box div{
     border: 3px solid #3882F6;
-    flex: 1;
+    flex: 1 1 0%;
     height: 150px;
-    width: 10px;
+    width: 150px;
     border-radius: 10px;
     margin: 35px;
  }
