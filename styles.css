@@ -163,3 +163,11 @@ button:hover{
     border-radius: 10px;
     margin: 35px;
  }
+
+ caption,figure{
+  display: block;
+  align-items: baseline;
+  text-align: baseline;
+  justify-content: baseline;
+  font-size: 18px;
+ }
