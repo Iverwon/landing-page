@@ -66,6 +66,7 @@
     text-align: center;
     font-size: 18px;
     text-decoration: none;
+    transition: all 0.5s ease;
  }
 
  
@@ -149,9 +150,20 @@ button:hover{
  }
 
  .box,figure{
+  margin-left:0;
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  }
+
+  .caption{
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  .caption{
+    align-items: baseline;
+    text-align: left;
+    display: inline-flex;
   }
 
 
@@ -162,12 +174,65 @@ button:hover{
     width: 150px;
     border-radius: 10px;
     margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
  }
 
- caption,figure{
-  display: block;
-  align-items: baseline;
-  text-align: baseline;
-  justify-content: baseline;
-  font-size: 18px;
+
+ footer{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
  }
+
+.foot{
+  padding: 12px;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+ .quote{
+  margin-top: 20%;
+  margin-bottom: 20%;
+  background-color:#e5e7eb ;
+  padding:200px;
+  font-size:26px ;
+  font: light italic #1f2937;
+ }
+ .quote__text{
+  
+  text-align: left;
+  align-items: center;
+  justify-items: center;
+ }
+
+.Call_box{
+  flex: auto;
+  margin-left: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Call_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 80px;
+  border-radius: 10px;
+}
+
+.signup-button {
+  background-color: #3882F6;
+  color: #e5e7eb;
+  border: 2px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
