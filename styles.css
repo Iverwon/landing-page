@@ -236,3 +236,9 @@ button:hover{
   font-weight: bold;
   border-radius: 10px;
 }
+
+
+.call_to_action {
+  color: #e5e7eb;
+  text-decoration-color: #e5e7eb;
+}
